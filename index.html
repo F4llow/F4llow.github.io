@@ -2,7 +2,19 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <title>Test Webpage</title>
+    <title>Correct of Incorrect</title>
+    <script type="text/javascript">
+    var dino = "Dino"
+    function submit(){
+      var code = document.getElementById("txt").value;
+      if (code == dino) {
+          window.alert("Correct");
+          
+      } else {
+          window.alert("Incorrect");
+      }
+    }
+    </script>
   </head>
   <body>
     <h1>This is a test webpage.</h1>
